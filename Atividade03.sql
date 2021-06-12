@@ -1,3 +1,8 @@
+/*
+Para testar a função, criar uma FUNÇÃO ANÔNIMA que usará um CURSOR para varrer a tabela vendedo (vendors) para pegar os IDs. Mostrar o resultado. Por exemplo: NOTICE: Vendedor: 
+10002 -> 1
+
+*/
 DECLARE
        CURSOR cursor1  IS
                     SELECT vend_id FROM vendors;
